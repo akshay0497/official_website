@@ -3,19 +3,6 @@
 
 This is the official website of MSSPL, built using TypeScript, React, Vite, and Tailwind CSS. The website showcases the company's products, services, processes, and other essential information in a sleek and modern interface.
 
-## Table of Contents
-
-- [About](#about)
-- [Features](#features)
-- [Directory Structure](#directory-structure)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Technologies Used](#technologies-used)
-- [Project Setup](#project-setup)
-- [Scripts](#scripts)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## About
 
 This project is designed as a modern, responsive website that serves as the online presence of Akshay0497. It includes various sections like product information, service offerings, a contact form, and other business-related content.
@@ -29,12 +16,6 @@ This project is designed as a modern, responsive website that serves as the onli
 - **Dynamic sections**: Includes sections for products, services, processes, and more.
 - **Smooth animations**: Using motion and Tailwind CSS for UI animations.
 - **API Integration**: Axios is used for API calls to fetch data dynamically.
-
-## Installation
-
-### Prerequisites
-
-Make sure you have `Node.js` (version 14 or later) and `npm` installed on your local machine.
 
 ### Steps
 
