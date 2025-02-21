@@ -1,0 +1,1 @@
+export const addressLink = 'https://www.google.com/maps/place/Multifacet+Software+Systems+Pvt+Ltd/@26.4726595,80.3236151,49m/data=!3m1!1e3!4m6!3m5!1s0x399c3880bcee05c7:0xd7ffc1af02582e8c!8m2!3d26.4726406!4d80.3239828!16s%2Fg%2F11fy4v6lrc?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D'
