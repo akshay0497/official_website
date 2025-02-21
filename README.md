@@ -1,7 +1,7 @@
 ```markdown
 # MSSPL Official Website
 
-This is the official website of Akshay0497, built using TypeScript, React, Vite, and Tailwind CSS. The website showcases the company's products, services, processes, and other essential information in a sleek and modern interface.
+This is the official website of MSSPL, built using TypeScript, React, Vite, and Tailwind CSS. The website showcases the company's products, services, processes, and other essential information in a sleek and modern interface.
 
 ## Table of Contents
 
