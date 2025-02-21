@@ -1,5 +1,3 @@
-Sure! Here's a complete `README.md` file based on your directory structure, which includes setup instructions, project details, technologies used, and more:
-
 ```markdown
 # MSSPL Official Website
 
