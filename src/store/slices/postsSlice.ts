@@ -16,6 +16,9 @@ interface PostsState {
   filetracking : MSREANA[];
   ourclient : MSREANA[];
   companyprofile : MSREANA[];
+  objectives : MSREANA[];
+  StaffManagement : MSREANA[];
+  itservice : MSREANA[];
   loading: boolean;
   error: ApiError | null;
 }
@@ -35,6 +38,9 @@ const initialState: PostsState = {
   filetracking : [],
   ourclient : [],
   companyprofile : [],
+  objectives : [],
+  StaffManagement : [], 
+  itservice : [],
   loading: false,
   error: null,
 };

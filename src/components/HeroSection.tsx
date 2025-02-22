@@ -15,7 +15,7 @@ export default function HeroSection() {
             SOFTWARE DEVELOPMENT COMPANY WITH A UNIQUE APPROACH
           </h1>
           <div className="text-xl text-gray-600 md:text-2xl mb-8">
-            25+ Years of Excellence in Software Development
+            20+ Years of Excellence in Software Development
           </div>
           <p className="text-lg md:text-xl text-gray-600 mb-12">
             With a legacy spanning nearly two decades, we have partnered with <span className="font-semibold">200+ clients</span> to transform their ideas into successful, innovative products. We have delivered impactful solutions tailored to diverse industries.

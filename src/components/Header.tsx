@@ -7,12 +7,12 @@ const contactInfo = [
   {
     icon: MapPin,
     text: '109/421, 80 Feet Road, Kanpur (U.P.), India',
-    href: {addressLink},
+    href: addressLink,
   },
   {
     icon: Phone,
-    text: '+91-9336652601, 9519510543',
-    href: 'tel:+919336652601',
+    text: '+91-9336810652, 9519510543',
+    href: 'tel:+919336810652',
   },
   {
     icon: Mail,

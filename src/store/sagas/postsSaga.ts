@@ -75,6 +75,18 @@ function* fetchCompanyProfile() {
   yield fetchData('companyprofile', 'CompanyProfile/GetCompanyProfile');
 }
 
+function* fetchObjectives() {
+  yield fetchData('objectives', 'Objectives/GetObjectives');
+}
+
+function* fetchStaffManagement() {
+  yield fetchData('StaffManagement', 'StaffManagement/GetStaffManagement');
+}
+
+function* fetchITService() {
+  yield fetchData('itservice', 'ITServices/GetITServices');
+}
+
 export function* postsSaga() {
   yield takeLatest(fetchDataRequest.type, fetchRequirementAnalysis);
   yield takeLatest(fetchDataRequest.type, fetchAcceptanceTesting);
@@ -90,4 +102,7 @@ export function* postsSaga() {
   yield takeLatest(fetchDataRequest.type, fetchFileTrackingSystem);
   yield takeLatest(fetchDataRequest.type, fetchBeOurPartner);
   yield takeLatest(fetchDataRequest.type, fetchCompanyProfile);
+  yield takeLatest(fetchDataRequest.type, fetchObjectives);
+  yield takeLatest(fetchDataRequest.type, fetchStaffManagement);
+  yield takeLatest(fetchDataRequest.type, fetchITService);
 }

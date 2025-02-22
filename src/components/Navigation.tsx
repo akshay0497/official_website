@@ -36,7 +36,8 @@ const headerOption = [
       { title: "IT Service", href: "/about/it-service" }
     ]
   },
-  { title: "Career", href: "/career", child: [] }
+  { title: "Career", href: "/career", child: [] },
+  { title: "Contact Us", href: "/contact", child: [] }
 ];
 
 const dropdownVariants = {

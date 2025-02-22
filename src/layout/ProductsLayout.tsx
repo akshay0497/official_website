@@ -1,5 +1,5 @@
 const ProductsLayout = ({ Data }: any) => {
-    console.log(Data)
+    // console.log(Data)
     const headImage = Data?.data[0];
     const remData = Data?.data.slice(1);
 
@@ -19,7 +19,7 @@ const ProductsLayout = ({ Data }: any) => {
             <div className="container mx-auto">
                 {headImage && (
                     <div className="bg-transparent p-6 rounded-xl shadow-md hover:shadow-lg shadow-blue-400 transition-shadow duration-300 transform hover:scale-104 m-2">
-                        <h2 className="text-3xl font-semibold text-center  text-gray-900 mb-4">{headImage.Title}</h2>
+                        {/* <h2 className="text-3xl font-semibold text-center  text-gray-900 mb-4">{headImage.Title}</h2> */}
                         {headImage?.Image && (
                             <img
                                 src={`data:image/png;base64,${headImage.Image}`}

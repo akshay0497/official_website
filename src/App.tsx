@@ -28,6 +28,11 @@ import Esecure from './components/Products/Esecure';
 import FileTrackingSystem from './components/Products/FileTrackingSystem';
 import OurClients from './components/Partner/OurClients';
 import CompanyProfile from './components/AboutUs/CompanyProfile';
+import Objectives from './components/AboutUs/Objectives';
+import StaffManagement from './components/AboutUs/StaffManagement';
+import Services from './components/AboutUs/ITServices';
+import Careers from './components/AboutUs/Career';
+import Contact from './components/Contact/Contact';
 
 function Home() {
   return (
@@ -71,7 +76,6 @@ function App() {
     );
   }
 
-
   return (
     <Router>
       <Header />
@@ -92,6 +96,11 @@ function App() {
         <Route path="/products/esecure" element={<Esecure />} />
         <Route path="/clients/be-our-partner" element={<OurClients />} />
         <Route path="/about/company-profile" element={<CompanyProfile />} />
+        <Route path="/about/objectives" element={<Objectives />} />
+        <Route path="/about/management" element={<StaffManagement />} />
+        <Route path="/about/it-service" element={<Services />} />
+        <Route path="/career" element={<Careers />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
       <Footer />

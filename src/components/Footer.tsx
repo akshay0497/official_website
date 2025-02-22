@@ -11,7 +11,7 @@ export default function Footer() {
           <div>
             <h3 className="text-white text-lg font-semibold mb-4">About Us</h3>
             <p className="text-gray-400">
-              Multifacet Software Systems Pvt. Ltd. is a leading software development company with 19+ years of excellence in delivering innovative solutions.
+              Multifacet Softwares Systems Pvt. Ltd. is a leading software development company with 19+ years of excellence in delivering innovative solutions.
             </p>
           </div>
           <div>
@@ -39,7 +39,7 @@ export default function Footer() {
             <ul className="space-y-2 text-gray-400">
               <li>109/421, 80 Feet Road</li>
               <li>Kanpur (U.P.), India</li>
-              <li>+91-9336652601</li>
+              <li>+91-9336810652</li>
               <li>+91-9519510543</li>
               <li>msspl.mspl@gmail.com</li>
             </ul>
@@ -48,7 +48,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p>&copy; {currentYear} Multifacet Software Systems Pvt. Ltd. All rights reserved.</p>
+            <p>&copy; {currentYear} Multifacet Softwares Systems Pvt. Ltd. All rights reserved.</p>
             <div className="flex space-x-4 mt-4 md:mt-0">
               <a href="#" className="hover:text-white transition-colors">
                 <Facebook size={20} />
